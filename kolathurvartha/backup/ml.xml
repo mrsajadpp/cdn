@@ -5008,7 +5008,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                     <link href='//4.bp.blogspot.com' rel='dns-prefetch' />
                     <link href='//www.blogger.com' rel='dns-prefetch' />
                     <meta content='blogger' name='generator' />
-                    <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon' />
+                    <!-- <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon' /> -->
                     <meta expr:content='data:skin.vars.main_color' name='theme-color' />
                     <b:if cond='data:blog.adultContent'>
                         <meta content='adult' name='rating' />
