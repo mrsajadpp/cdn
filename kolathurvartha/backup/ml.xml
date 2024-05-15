@@ -7,14 +7,21 @@
     xmlns:data='http://www.google.com/2005/gml/data'
     xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
-        <link rel="alternate" hreflang="en" href="https://en.kolathurvartha.com" />
-        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.thintry.com/kolathurvartha/img/apple-touch-icon.png"></link>
-        <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.thintry.com/kolathurvartha/img/favicon-32x32.png"></link>
-        <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.thintry.com/kolathurvartha/img/favicon-16x16.png"></link>
-        <link rel="manifest" href="https://cdn.thintry.com/kolathurvartha/site.webmanifest"></link>
-        <link rel="mask-icon" href="https://cdn.thintry.com/kolathurvartha/img/safari-pinned-tab.svg" color="#5bbad5"></link>
-        <meta name="msapplication-TileColor" content="#2d89ef"></meta>
-        <meta name="theme-color" content="#ffffff"></meta>
+        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+            property='og:image' />
+        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+            name='twitter:image' />
+        <link href='https://cdn.thintry.com/kolathurvartha/img/apple-touch-icon.png'
+            rel='apple-touch-icon' sizes='180x180' />
+        <link href='https://cdn.thintry.com/kolathurvartha/img/favicon-32x32.png' rel='icon'
+            sizes='32x32' type='image/png' />
+        <link href='https://cdn.thintry.com/kolathurvartha/img/favicon-16x16.png' rel='icon'
+            sizes='16x16' type='image/png' />
+        <link href='https://cdn.thintry.com/kolathurvartha/site.webmanifest' rel='manifest' />
+        <link color='#5bbad5'
+            href='https://cdn.thintry.com/kolathurvartha/img/safari-pinned-tab.svg' rel='mask-icon' />
+        <meta content='#2d89ef' name='msapplication-TileColor' />
+        <meta content='#ffffff' name='theme-color' />
         <b:include name='theme-head' />
         <b:if cond='!data:view.isLayoutMode'>
             <!-- Theme CSS Style -->
@@ -5008,7 +5015,8 @@ html,body#layout #outer-wrapper,body#layout .row{
                     <link href='//4.bp.blogspot.com' rel='dns-prefetch' />
                     <link href='//www.blogger.com' rel='dns-prefetch' />
                     <meta content='blogger' name='generator' />
-                    <!-- <link expr:href='data:blog.blogspotFaviconUrl' rel='icon' type='image/x-icon' /> -->
+                    <!-- <link expr:href='data:blog.blogspotFaviconUrl' rel='icon'
+                    type='image/x-icon' /> -->
                     <meta expr:content='data:skin.vars.main_color' name='theme-color' />
                     <b:if cond='data:blog.adultContent'>
                         <meta content='adult' name='rating' />
@@ -6976,7 +6984,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                         </b:includable>
                     </b:widget>
                     <b:widget id='Image52' locked='true' title='Default Thumbnail' type='Image'
-                        visible='true'>
+                        version='2' visible='true'>
                         <b:widget-settings>
                             <b:widget-setting name='displayUrl'>
                                 https://1.bp.blogspot.com/-rI4UCIrwEI4/YN3nGkf0nCI/AAAAAAAAAD0/DQ6fW7eCps8NL7S0oh374KFg1MsWUf2GQCLcBGAsYHQ/s72-c/ptb-nth.png</b:widget-setting>
@@ -6996,7 +7004,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                         </b:includable>
                     </b:widget>
                     <b:widget id='HTML50' locked='true' title='JSON Variables' type='HTML'
-                        visible='true'>
+                        version='2' visible='true'>
                         <b:widget-settings>
                             <b:widget-setting name='content' />
                         </b:widget-settings>
@@ -7015,7 +7023,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                             <b:section class='topbar flex-sb' id='topbar' maxwidgets='2'
                                 name='Topbar' showaddelement='yes'>
                                 <b:widget id='LinkList201' locked='true' title='Pages'
-                                    type='LinkList' visible='true'>
+                                    type='LinkList' version='2' visible='true'>
                                     <b:widget-settings>
                                         <b:widget-setting name='sorting'>NONE</b:widget-setting>
                                         <b:widget-setting name='text-0'>Home</b:widget-setting>
@@ -7030,7 +7038,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                                     </b:includable>
                                 </b:widget>
                                 <b:widget id='LinkList202' locked='true' title='Follow Us'
-                                    type='LinkList' visible='true'>
+                                    type='LinkList' version='2' visible='true'>
                                     <b:widget-settings>
                                         <b:widget-setting name='sorting'>NONE</b:widget-setting>
                                         <b:widget-setting name='text-1'>youtube</b:widget-setting>
@@ -7066,10 +7074,10 @@ html,body#layout #outer-wrapper,body#layout .row{
                                                 maxwidgets='1' name='Header Logo'
                                                 showaddelement='no'>
                                                 <b:widget id='Image50' locked='true' title=''
-                                                    type='Image' visible='true'>
+                                                    type='Image' version='2' visible='true'>
                                                     <b:widget-settings>
                                                         <b:widget-setting name='displayUrl'>
-                                                            https://blogger.googleusercontent.com/img/a/AVvXsEjMuRtS-pIayy9UOwbhxAD7ch4SLH0X1tixtDyw0h4KjFtJIgrtWJexoNKgB7VK0DtqsgQPSUVtXuQoLUn3jCorr2LvdQJvVvc6TTeKFFmZVPq4lNU8ajaTOqNhEwjPe2TV86uYg-2_FTnLwotj2dMVt9WIn9kR4VLuXC2ova5Csga0p0VUH2PkDJa-jHxa=s170</b:widget-setting>
+                                                            https://blogger.googleusercontent.com/img/a/AVvXsEg0NlyoQ3cL4mqTQfv6D2CYq0HfXpRyJTA8N_q4hq5-E-Z9PSS2waMTkz-6ixEVSq7AEX-gWT8fWVidB_lIPwY1iANO8C7z1KAtUwtdkXXSjVXpfA2Z1Fp2kS9UdXoVfT7sKJE1ClLL4oghY76jOjyabEhDm72R-nxOuj_pkyChfsTJJClqfCvFp5fIRS44=s170</b:widget-setting>
                                                         <b:widget-setting name='displayHeight'>40</b:widget-setting>
                                                         <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                                                         <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
@@ -7104,7 +7112,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                                             id='spotmag-pro-main-nav' maxwidgets='1'
                                             name='Header Menu' showaddelement='no'>
                                             <b:widget id='LinkList200' locked='true' title=''
-                                                type='LinkList' visible='true'>
+                                                type='LinkList' version='2' visible='true'>
                                                 <b:widget-settings>
                                                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                                                     <b:widget-setting name='text-0'>Home</b:widget-setting>
@@ -7156,7 +7164,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                     <b:section class='ticker container row-x1' id='ticker' maxwidgets='1'
                         name='Ticker News' showaddelement='yes'>
                         <b:widget id='HTML20' locked='false' title='Breaking' type='HTML'
-                            visible='true'>
+                            version='2' visible='true'>
                             <b:widget-settings>
                                 <b:widget-setting name='content'>{getPosts} $results={6}
                                     $label={recent}</b:widget-setting>
@@ -7195,10 +7203,10 @@ html,body#layout #outer-wrapper,body#layout .row{
                                     <b:widget-setting name='backlinksLabel' />
                                     <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                                     <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
-                                    <b:widget-setting name='showCommentLink'>false</b:widget-setting>
+                                    <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                                     <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
                                     <b:widget-setting name='postLocationLabel' />
-                                    <b:widget-setting name='showAuthor'>true</b:widget-setting>
+                                    <b:widget-setting name='showAuthor'>false</b:widget-setting>
                                     <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                                     <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                                     <b:widget-setting name='showLabels'>true</b:widget-setting>
@@ -8080,7 +8088,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                             id='spotmag-pro-related-posts' maxwidgets='1' name='Related Posts'
                             showaddelement='yes'>
                             <b:widget id='HTML51' locked='true' title='You might like' type='HTML'
-                                visible='true'>
+                                version='2' visible='true'>
                                 <b:widget-settings>
                                     <b:widget-setting name='content'>$results={3}</b:widget-setting>
                                 </b:widget-settings>
@@ -8094,7 +8102,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                         <b:section class='sidebar templateify-section' id='sidebar' name='Sidebar'
                             showaddelement='yes'>
                             <b:widget id='LinkList1' locked='false' title='Follow Us'
-                                type='LinkList' visible='true'>
+                                type='LinkList' version='2' visible='true'>
                                 <b:widget-settings>
                                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
                                     <b:widget-setting name='text-1'>youtube</b:widget-setting>
@@ -8254,7 +8262,7 @@ html,body#layout #outer-wrapper,body#layout .row{
                                 </b:includable>
                             </b:widget>
                             <b:widget id='HTML19' locked='false' title='Subscribe Us' type='HTML'
-                                visible='false'>
+                                version='2' visible='false'>
                                 <b:widget-settings>
                                     <b:widget-setting name='content'><![CDATA[<div class="videoWrapper">
     <!-- Copy & Pasted from YouTube -->
@@ -8281,16 +8289,17 @@ height: 100%;
                                 </b:includable>
                             </b:widget>
                             <b:widget id='HTML2' locked='false' title='{ads}' type='HTML'
-                                visible='true'>
+                                version='2' visible='true'>
                                 <b:widget-settings>
-                                    <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+                                    <b:widget-setting name='content'><![CDATA[<script async="async" data-cfasync="false" src="//wideaplentyinsurance.com/d9e6e822cf5a728b1d1438ab3072790d/invoke.js"></script>
+<div id="container-d9e6e822cf5a728b1d1438ab3072790d"></div>]]></b:widget-setting>
                                 </b:widget-settings>
                                 <b:includable id='main'>
                                     <b:include name='html-content' />
                                 </b:includable>
                             </b:widget>
                             <b:widget id='HTML12' locked='false' title='Technology' type='HTML'
-                                visible='false'>
+                                version='2' visible='false'>
                                 <b:widget-settings>
                                     <b:widget-setting name='content'>{getPosts} $results={3}
                                         $label={Android} $style={1}</b:widget-setting>
@@ -8300,7 +8309,7 @@ height: 100%;
                                 </b:includable>
                             </b:widget>
                             <b:widget id='HTML21' locked='false' title='Facebook' type='HTML'
-                                visible='false'>
+                                version='2' visible='false'>
                                 <b:widget-settings>
                                     <b:widget-setting name='content'><![CDATA[<center><div class="fb-page" data-href="https://www.facebook.com/templateify/" data-width="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"  data-show-facepile="true"></div></center>]]></b:widget-setting>
                                 </b:widget-settings>
@@ -8309,7 +8318,7 @@ height: 100%;
                                 </b:includable>
                             </b:widget>
                             <b:widget id='Label2' locked='false' title='Main Tags' type='Label'
-                                visible='true'>
+                                version='2' visible='true'>
                                 <b:widget-settings>
                                     <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                                     <b:widget-setting name='display'>CLOUD</b:widget-setting>
@@ -8726,7 +8735,7 @@ window.onscroll = function() {
                                         id='footer-col-1' maxwidgets='3' name='Footer Left'
                                         showaddelement='yes'>
                                         <b:widget id='Label4' locked='false' title='Main Tags'
-                                            type='Label' visible='true'>
+                                            type='Label' version='2' visible='true'>
                                             <b:widget-settings>
                                                 <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                                                 <b:widget-setting name='display'>LIST</b:widget-setting>
@@ -8953,14 +8962,13 @@ window.onscroll = function() {
                 <div class='footer-bar flex-c'>
                     <div class='container row-x1 flex-sb'>
                         <div class='footer-copyright' id='footer-copyright'>
-                            <span style="opacity: 0; font-size: 1px;" class='copyright-text'>Design
-                                by <a
-                                    href='https://www.templateify.com/' id='mycontent'
+                            <span class='copyright-text' style='opacity: 0; font-size: 1px;'>Design
+                                by <a href='https://www.templateify.com/' id='mycontent'
                                     title='Templateify'>TY</a> | Distributed by <a
                                     href='https://gooyaabitemplates.com/' rel='dofollow'
                                     style='color:#1a73e8;font-weight:700;' target='_blank'
                                     title='Theme'>Theme</a></span>
-                            <span>© 2024 kolathur Vartha, All Rights Reserved</span>
+                            <span>&#169; 2024 kolathur Vartha, All Rights Reserved</span>
 
                         </div>
                         <b:section class='footer-menu' id='footer-menu' maxwidgets='1'
@@ -9006,7 +9014,7 @@ window.onscroll = function() {
                 <b:section class='hidden-widgets' deleted='true' id='hidden-widgets' maxwidgets='1'
                     showaddelement='no'>
                     <b:widget id='ContactForm1' locked='true' title='Contact Form'
-                        type='ContactForm' visible='true'>
+                        type='ContactForm' version='2' visible='true'>
                         <b:includable id='main' var='this'>
                             <b:include name='widget-title' />
                             <b:include name='content' />
