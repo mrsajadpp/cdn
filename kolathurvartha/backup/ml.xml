@@ -4972,6 +4972,9 @@ html,body#layout #outer-wrapper,body#layout .row{
                             property='og:image' />
                         <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
                             name='twitter:image' />
+                        <meta content='Kolathur Vartha, News Is Not Meant To Be Covered Up' property='og:title' />
+                        <meta content='https://www.kolathurvartha.com/' property='og:url' />
+                        <meta content='Stay informed about local happenings in Kolathur, Kerala with Kolathur Vartha. Our website features the latest news, events, and stories relevant to the Kolathur community.' property='og:description' />
                     </b:if>
                     <b:if cond='data:view.isSingleItem'>
                         <meta content='article' property='og:type' />
