@@ -7,10 +7,10 @@
     xmlns:data='http://www.google.com/2005/gml/data'
     xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
-        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+        <!-- <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
             property='og:image' />
         <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
-            name='twitter:image' />
+            name='twitter:image' /> -->
         <link href='https://cdn.thintry.com/kolathurvartha/img/apple-touch-icon.png'
             rel='apple-touch-icon' sizes='180x180' />
         <link href='https://cdn.thintry.com/kolathurvartha/img/favicon-32x32.png' rel='icon'
@@ -4968,6 +4968,10 @@ html,body#layout #outer-wrapper,body#layout .row{
                     <meta expr:content='data:blog.localeUnderscoreDelimited' property='og:locale' />
                     <b:if cond='data:view.isHomepage'>
                         <meta content='website' property='og:type' />
+                        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+                            property='og:image' />
+                        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+                            name='twitter:image' />
                     </b:if>
                     <b:if cond='data:view.isSingleItem'>
                         <meta content='article' property='og:type' />
