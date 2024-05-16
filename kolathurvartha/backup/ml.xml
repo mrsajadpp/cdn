@@ -7,6 +7,37 @@
     xmlns:data='http://www.google.com/2005/gml/data'
     xmlns:expr='http://www.google.com/2005/gml/expr'>
     <head>
+        <meta name="facebook-domain-verification" content="xttggfalkl8ghawtfe975ootn3i7zn" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WYYMKDT74"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-6WYYMKDT74');
+        </script>
+        <script>
+            window.fbAsyncInit = function() {
+            FB.init({
+            appId : '1636590330485362',
+            cookie : true,
+            xfbml : true,
+            version : '19.0'
+            });
+
+            FB.AppEvents.logPageView();
+
+            };
+
+            (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {return;}
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
         <!-- <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
             property='og:image' />
         <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
@@ -4966,15 +4997,22 @@ html,body#layout #outer-wrapper,body#layout .row{
                 <b:includable id='customOpenGraphMetaData'>
                     <!-- Metadata for Open Graph protocol. See http://ogp.me/. -->
                     <meta expr:content='data:blog.localeUnderscoreDelimited' property='og:locale' />
+                    <meta property="og:image:width" content="1200" />
+                    <meta property="og:image:height" content="630" />
                     <b:if cond='data:view.isHomepage'>
                         <meta content='website' property='og:type' />
+                        <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
+                            property='image' />
                         <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
                             property='og:image' />
                         <meta content='https://cdn.thintry.com/kolathurvartha/img/opengraph.jpg'
                             name='twitter:image' />
-                        <meta content='Kolathur Vartha, News Is Not Meant To Be Covered Up' property='og:title' />
+                        <meta content='Kolathur Vartha, News Is Not Meant To Be Covered Up'
+                            property='og:title' />
                         <meta content='https://www.kolathurvartha.com/' property='og:url' />
-                        <meta content='Stay informed about local happenings in Kolathur, Kerala with Kolathur Vartha. Our website features the latest news, events, and stories relevant to the Kolathur community.' property='og:description' />
+                        <meta
+                            content='Stay informed about local happenings in Kolathur, Kerala with Kolathur Vartha. Our website features the latest news, events, and stories relevant to the Kolathur community.'
+                            property='og:description' />
                     </b:if>
                     <b:if cond='data:view.isSingleItem'>
                         <meta content='article' property='og:type' />
@@ -4993,10 +5031,16 @@ html,body#layout #outer-wrapper,body#layout .row{
                     <b:tag
                         cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage'
                         expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600'
+                        name='meta' property='image' />
+                    <b:tag
+                        cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage'
+                        expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600'
                         name='meta' property='twitter:image' />
                     <b:if cond='data:view.featuredImage'>
                         <meta expr:content='data:view.featuredImage resizeImage 1600'
                             property='og:image' />
+                        <meta expr:content='data:view.featuredImage resizeImage 1600'
+                            property='image' />
                         <meta expr:content='data:view.featuredImage resizeImage 1600'
                             name='twitter:image' />
                     </b:if>
@@ -7084,11 +7128,11 @@ html,body#layout #outer-wrapper,body#layout .row{
                                                     type='Image' version='2' visible='true'>
                                                     <b:widget-settings>
                                                         <b:widget-setting name='displayUrl'>
-                                                            https://blogger.googleusercontent.com/img/a/AVvXsEg0NlyoQ3cL4mqTQfv6D2CYq0HfXpRyJTA8N_q4hq5-E-Z9PSS2waMTkz-6ixEVSq7AEX-gWT8fWVidB_lIPwY1iANO8C7z1KAtUwtdkXXSjVXpfA2Z1Fp2kS9UdXoVfT7sKJE1ClLL4oghY76jOjyabEhDm72R-nxOuj_pkyChfsTJJClqfCvFp5fIRS44=s170</b:widget-setting>
-                                                        <b:widget-setting name='displayHeight'>40</b:widget-setting>
+                                                            https://blogger.googleusercontent.com/img/a/AVvXsEi3BENv2E0wQpHJoml5BHb2idwDMPB7lMslmUK35AukI5WiO8PSwGB4Dzz7EPuPtofx2B_sQfbz6z_4LrnB3LBDBcRfi97UU5UDQEqcIqvmAJYuvL9KAji_EMheChm3RGCnaLJUKYT675wIYKuWsWVYrxLuotHHVasDe_2Fg5suH1zcOzPNFzw1yC94vNXZ=s512</b:widget-setting>
+                                                        <b:widget-setting name='displayHeight'>512</b:widget-setting>
                                                         <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                                                         <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-                                                        <b:widget-setting name='displayWidth'>170</b:widget-setting>
+                                                        <b:widget-setting name='displayWidth'>512</b:widget-setting>
                                                         <b:widget-setting name='link'>
                                                             https://blogger.googleusercontent.com/img/a/AVvXsEgH0DDr4ndw7_SofzT7Zc6Vt5oGT6ObXBmtUfSDc0OPzQuKIe1w971fyEtk_nuknpwcATKayVWlrRa8X49Vs2ILxXnL-UWgA7xNMPslk9FS1hxof9XQv5Pk6E6t48gP2uzsQypIkRnnYf-0S7RAauLBC1_GI8Ag3xsQKRmNKbZxkHtdoUD2C_TIL0o7=s291</b:widget-setting>
                                                         <b:widget-setting name='caption' />
@@ -7122,6 +7166,9 @@ html,body#layout #outer-wrapper,body#layout .row{
                                                 type='LinkList' version='2' visible='true'>
                                                 <b:widget-settings>
                                                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                                                    <b:widget-setting name='text-1'>Categories</b:widget-setting>
+                                                    <b:widget-setting name='link-1'>
+                                                        https://www.kolathurvartha.com/p/categories.html</b:widget-setting>
                                                     <b:widget-setting name='text-0'>Home</b:widget-setting>
                                                     <b:widget-setting name='link-0'>/</b:widget-setting>
                                                 </b:widget-settings>
@@ -8585,8 +8632,8 @@ height: 100%;
                                 version='2' visible='true'>
                                 <b:widget-settings>
                                     <b:widget-setting name='displayUrl'>
-                                        https://blogger.googleusercontent.com/img/a/AVvXsEg3m-QVOuuEF9XXtNMA4hPea2oMZROyU7QjbabTIdS-DDalWBiyaXiRtueseS0HqPX6iPGqd95eVOTmbVHgmIJ-SDlNn_Tc3D-di79AkLHrCUydFLJ3Hlid2siR5wyNRsCMWQshgUj3yDmA6SKE8LaUjoZlOxfRJ0ddHhFNq8aeUhHYeAHzPhkviSstUxeq=s150</b:widget-setting>
-                                    <b:widget-setting name='displayHeight'>150</b:widget-setting>
+                                        https://blogger.googleusercontent.com/img/a/AVvXsEh-KLJiWVgBv1Og8dqNFNMubSNs7tLvSIz8fWs1wSHJtaN-6ROXi30iaonB0miICtD8ncnFPxs12KSbDfSkYw-V6RisPXTwEnvaG62ByvHpDIH2eij2G6bkOjOcRTwrrbJZ84-P4BcounUPXn3NYykc-0FdBiv4vl_SzvrlMAbRpmP2Oaj1xLSosyG6Ejt9=s150</b:widget-setting>
+                                    <b:widget-setting name='displayHeight'>35</b:widget-setting>
                                     <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                                     <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
                                     <b:widget-setting name='displayWidth'>150</b:widget-setting>
@@ -8745,7 +8792,7 @@ window.onscroll = function() {
                                             type='Label' version='2' visible='true'>
                                             <b:widget-settings>
                                                 <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
-                                                <b:widget-setting name='display'>LIST</b:widget-setting>
+                                                <b:widget-setting name='display'>CLOUD</b:widget-setting>
                                                 <b:widget-setting name='selectedLabelsList' />
                                                 <b:widget-setting name='showType'>ALL</b:widget-setting>
                                                 <b:widget-setting name='showFreqNumbers'>false</b:widget-setting>
@@ -8984,6 +9031,9 @@ window.onscroll = function() {
                                 version='2' visible='true'>
                                 <b:widget-settings>
                                     <b:widget-setting name='sorting'>NONE</b:widget-setting>
+                                    <b:widget-setting name='text-1'>Categories</b:widget-setting>
+                                    <b:widget-setting name='link-1'>
+                                        https://www.kolathurvartha.com/p/categories.html</b:widget-setting>
                                     <b:widget-setting name='text-0'>Home</b:widget-setting>
                                     <b:widget-setting name='link-0'>/</b:widget-setting>
                                 </b:widget-settings>
